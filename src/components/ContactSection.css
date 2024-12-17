@@ -1,0 +1,15 @@
+/* src/components/ContactSection.css */
+.contact {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 1rem;
+  color: #333;
+}
+
+.socials a:hover {
+  color: #0077b5;
+}

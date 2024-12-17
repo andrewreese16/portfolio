@@ -1,0 +1,139 @@
+/* HeroSection.css */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 10% 3rem;  /* Increased padding at the top */
+  background: linear-gradient(to bottom, #f8f9fa, #e0e0e0);
+  color: #333;
+  min-height: 70vh; /* Increased height */
+  margin-top: 80px; /* Prevents cut-off from fixed navbar */
+}
+
+.hero-content {
+  max-width: 600px;
+  padding-right: 2rem; /* Add padding on the right to prevent the text from being too close to the image */
+}
+
+.hero h1 {
+  font-size: 2.5rem; /* Smaller font size for a more compact header */
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 1.5rem; /* Reduced the size of the subheading */
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem; /* Reduced margin for compactness */
+}
+
+.highlight {
+  color: #0077cc; /* Highlight name for emphasis */
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #005fa3;
+}
+
+.btn-secondary {
+  background-color: #444;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #222;
+}
+
+.hero-image img {
+  max-width: 300px; /* Reduced image size */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tech Icons Section */
+.tech-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 1.5rem; /* Reduced the margin between icons */
+}
+
+.tech-icon {
+  font-size: 2rem; /* Reduced icon size */
+  color: #555;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fade-in 1s forwards;
+}
+
+.tech-icon i {
+  font-size: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.tech-icon:hover i {
+  color: #0077cc;
+  transform: translateY(-5px);
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .tech-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.25rem;
+  }
+}
