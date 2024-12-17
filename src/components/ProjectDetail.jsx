@@ -9,7 +9,8 @@ const projects = [
     image: "/assets/images/vehicle.png",
     description:
       "An application for users to track the maintenance of their vehicles. Users can sign up for an account to start storing their vehicles and maintenance records. This was build using Python, Django, PostgreSQL, CSS.",
-    projectLink: "https://example.com",
+    projectLink:
+      "https://vehicle-maintenance-tracker-240e1fe94f00.herokuapp.com/",
   },
   {
     id: "project2",
@@ -25,7 +26,7 @@ const projects = [
     image: "/assets/images/book.png",
     description:
       "An application for book lovers to share and find their favorite books. Users can create an account or just browse through the collection books and reviews. To add a book to the collection or leave a review for a book an account must be created. This was build using Express.js, EJS, CSS, MongoDB Atlas.",
-    projectLink: "https://example.com",
+    projectLink: "https://reader-realm-eef6146ef95e.herokuapp.com/",
   },
   {
     id: "project4",
@@ -33,7 +34,7 @@ const projects = [
     image: "/assets/images/active.png",
     description:
       "A fitness tracking application. Users can create an account to start logging workouts. Users can also search for local gyms using the Google Places API. This was built using React, MongoDB, Express.JS, CSS.",
-    projectLink: "https://example.com",
+    projectLink: "https://active-vibe.netlify.app/",
   },
   {
     id: "project5",
@@ -41,7 +42,7 @@ const projects = [
     image: "/assets/images/resource.png",
     description:
       "Application for users to search and save local resources. This allows users to search for resources such as Food Banks, Shelters, Waste Disposal, and Clothing using the Google Places API. This was built using Python, Django, CSS, and PostgreSQl.",
-    projectLink: "https://example.com",
+    projectLink: "https://community-resource-hub-2b405874d7f6.herokuapp.com/",
   },
   {
     id: "project6",
@@ -49,7 +50,7 @@ const projects = [
     image: "/assets/images/wordle.png",
     description:
       "A clone of the popular NY Times Wordle. This is my take on the clasic Wordle game. It was built using HTML, CSS, and JavaScript.",
-    projectLink: "https://example.com",
+    projectLink: "https://andrewreese16.github.io/wordle-browser-game/",
   },
 ];
 
