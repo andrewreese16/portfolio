@@ -47,7 +47,7 @@ const HeroSection = () => {
       </div>
       <div className="hero-image">
         <img
-          src="/src/assets/images/me.jpeg" // Replace with a relevant image or your avatar
+          src="/assets/images/me.jpeg" // Replace with a relevant image or your avatar
           alt="Full Stack Developer"
         />
       </div>

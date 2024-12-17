@@ -5,7 +5,7 @@ const projects = [
   {
     id: "project1",
     title: "Vehicle Maintenance Tracker",
-    image: "/src/assets/images/vehicle.png",
+    image: "/assets/images/vehicle.png",
     description:
       "An application for users to track the maintenance of their vehicles.",
     projectLink: "https://example.com",
@@ -13,13 +13,13 @@ const projects = [
   {
     id: "project2",
     title: "The Listening Ear",
-    image: "/src/assets/images/ear.png",
+    image: "/assets/images/ear.png",
     description: "A Therapy booking site.",
   },
   {
     id: "project3",
     title: "Reader Realm",
-    image: "/src/assets/images/book.png",
+    image: "/assets/images/book.png",
     description:
       "An application for book lovers to share and find their favorite books.",
     projectLink: "https://example.com",
@@ -27,20 +27,20 @@ const projects = [
   {
     id: "project4",
     title: "Active Vibe",
-    image: "/src/assets/images/active.png",
+    image: "/assets/images/active.png",
     description: "A fitness tracking application.",
     projectLink: "https://example.com",
   },
   {
     id: "project5",
     title: "Community Resource",
-    image: "/src/assets/images/resource.png",
+    image: "/assets/images/resource.png",
     description: "Application for users to search and save local resources.",
   },
   {
     id: "project6",
     title: "Wordle",
-    image: "/src/assets/images/wordle.png",
+    image: "/assets/images/wordle.png",
     description: "A clone of the popular NY Times Wordle.",
   },
   
