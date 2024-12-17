@@ -45,12 +45,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="hero-image">
-        <img
-          src="/assets/images/me.jpeg" // Replace with a relevant image or your avatar
-          alt="Full Stack Developer"
-        />
-      </div>
     </section>
   );
 };
